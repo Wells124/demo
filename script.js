@@ -1,7 +1,5 @@
-console.log("YouTube Clone Loaded");
+console.log("Facebook Clone Loaded");
 
-document.querySelector('input[type="text"]').addEventListener('keypress', function (e) {
-  if (e.key === 'Enter') {
-    alert("Search not implemented in static version.");
-  }
+document.querySelector("button").addEventListener("click", () => {
+  alert("This is a static clone. Posting not supported.");
 });

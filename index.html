@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Clone - Home</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Clone</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo">YouTube<span>Clone</span></div>
-    <input type="text" placeholder="Search">
-    <button>🔍</button>
-    <div class="user-icon">👤</div>
+    <div class="logo">Facebook<span>Clone</span></div>
+    <input type="text" placeholder="Search Facebook" />
+    <div class="user-icons">👥 🔔 🔽</div>
   </header>
 
-  <aside>
-    <nav>
-      <a href="#">🏠 Home</a>
-      <a href="#">🔥 Trending</a>
-      <a href="#">📺 Subscriptions</a>
-    </nav>
-  </aside>
-
   <main>
-    <div class="video-grid">
-      <a href="video.html">
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-        <h3>Sample Video 1</h3>
-      </a>
-      <a href="video.html">
-        <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe>
-        <h3>Sample Video 2</h3>
-      </a>
-    </div>
+    <aside class="sidebar">
+      <ul>
+        <li>👤 Profile</li>
+        <li>📰 News Feed</li>
+        <li>💬 Messenger</li>
+        <li>🎥 Watch</li>
+      </ul>
+    </aside>
+
+    <section class="feed">
+      <div class="post-box">
+        <textarea placeholder="What's on your mind?"></textarea>
+        <button>Post</button>
+      </div>
+      <div class="post">
+        <div class="post-header">
+          <img src="images/profile.jpg" alt="Profile" class="avatar"/>
+          <h4>Peter Adewoyin</h4>
+        </div>
+        <p>This is a sample Facebook post in a static clone.</p>
+        <img src="images/post.jpg" alt="Post" class="post-image"/>
+      </div>
+    </section>
+
+    <aside class="contacts">
+      <h4>Contacts</h4>
+      <ul>
+        <li><img src="images/contact1.jpg" class="avatar"> John Doe</li>
+        <li><img src="images/contact2.jpg" class="avatar"> Jane Smith</li>
+      </ul>
+    </aside>
   </main>
 
   <script src="script.js"></script>
