@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #202020;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo span {
+  color: red;
+}
+
+input[type="text"] {
+  flex: 1;
+  margin: 0 10px;
+  padding: 8px;
+}
+
+aside {
+  width: 200px;
+  background: #f1f1f1;
+  padding: 10px;
+  position: fixed;
+  height: 100%;
+}
+
+main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 180px;
+  border: none;
+}
+
+.video-page iframe {
+  height: 400px;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: auto;
+}
